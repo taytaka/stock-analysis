@@ -15,7 +15,7 @@ In 2018, all of the stocks' returns performed worse than in 2017. DQ performed p
 Refactoring the script majorly improved the run time of it. Both 2017 and 2018 had faster run times. Below are the run times of the refactored script for 2017 and 2018.
 
 ![VBA_Challenge_2017.png](Resources/VBA_Challenge_2017.png)
-![VBA_Challenge_2018.png](Resrouces/VBA_Challenge_2018.png)
+![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
 
 Refactoring the script also made it more clear to read for the developer. For example, the below refactored code is easier to understand:
             '3a) Increase volume for current ticker
