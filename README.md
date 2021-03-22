@@ -18,6 +18,7 @@ Refactoring the script majorly improved the run time of it. Both 2017 and 2018 h
 ![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
 
 Refactoring the script also made it more clear to read for the developer. For example, the below refactored code is easier to understand:
+            
             '3a) Increase volume for current ticker
             tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
             
@@ -42,7 +43,8 @@ Refactoring the script also made it more clear to read for the developer. For ex
             End If
 
 Below is the original code, which is clunky and unclear:
-            '5a) Find the total volume for the current ticker
+           
+           '5a) Find the total volume for the current ticker
             If Cells(j, 1).Value = ticker Then
 
                 totalVolume = totalVolume + Cells(j, 8).Value
